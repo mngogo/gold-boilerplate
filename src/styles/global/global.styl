@@ -1,0 +1,26 @@
+@import "normalize"
+@import "../base/variables"
+@import "./element"
+
+html {
+    font-size: $font-size
+    font-family: $font-family
+    -webkit-font-smoothing: antialiased
+}
+
+a {
+    text-decoration: none;
+}
+
+.view {
+    clearfix()
+}
+
+.color {
+    &.success {
+        color: #13CE66;
+    }
+    &.danger, &.error {
+        color: #FF4949;
+    }
+}
